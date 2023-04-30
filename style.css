@@ -1,0 +1,53 @@
+/*HEADER*/
+.logo {
+    font-family: Roboto Serif;
+    font-size: 41px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0em;
+
+}
+
+.botaoPerfilHeader {
+    border-radius: 50px;
+    position: absolute;
+    width: 51px;
+    height: 51px;
+    left: 1368px;
+    top: 12px;
+}
+
+.imagemperfil {
+    border-radius: 50px;
+    position: absolute;
+    width: 51px;
+    height: 51px;
+    left: calc(50% - 51px/2 - 16px);
+    top: calc(50% - 51px/2);
+}
+
+
+
+/*ARTICLE1*/
+.imagem_article {
+    width: 1038px;
+    height: 533px;
+    left: 402px;
+    top: 76px;
+
+}
+
+
+
+/*FOOTER*/
+.informacoes {
+    font-family: Roboto Serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
