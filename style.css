@@ -1,11 +1,32 @@
+body {
+    padding: 0;
+    position: absolute;
+    width: 1440px;
+    height: 1024px;
+}
+
 /*HEADER*/
+.header{
+    position: absolute;
+    width: 1440px;
+    height: 75px;
+    left: 0px;
+    top: 0px;
+    background: #6B5F3E;
+    mix-blend-mode: normal;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
 .logo {
+    position: absolute;
     font-family: Roboto Serif;
     font-size: 41px;
     font-style: italic;
     font-weight: 600;
     line-height: 48px;
     letter-spacing: 0em;
+    z-index: 1;
+    color: #FDFDFD;
 
 }
 
@@ -27,18 +48,55 @@
     top: calc(50% - 51px/2);
 }
 
-
-
 /*ARTICLE1*/
+.tPrincipalArticle {
+    position: absolute;
+    position: absolute;
+    width: 520px;
+    height: 82px;
+    left: 17px;
+    top: 147px;
+    font-family: 'Roboto Serif';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+}
+
 .imagem_article {
     width: 1038px;
     height: 533px;
     left: 402px;
     top: 76px;
-
+    z-index: 1;
 }
 
+/*ARTICLE2*/
+.article2 {
+    width: 1440px;
+    height: 415px;
+    left: 0px;
+    top: 609px;
+    background: #8C8C8B;
+    z-index: 1;
+}
 
+.frase {
+    position: absolute;
+    width: 558px;
+    height: 277px;
+    left: 184px;
+    top: 647px;
+    font-family: 'Roboto Serif';
+    font-style: italic;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 45px;
+    /* ou 161% */
+    text-align: justify;
+    color: #FDFDFD;
+}
 
 /*FOOTER*/
 .informacoes {
@@ -48,6 +106,18 @@
     font-weight: 700;
     line-height: 23px;
     letter-spacing: 0em;
-    text-align: center;
+    color: #FDFDFD;
 }
 
+.footer {
+    position: absolute;
+    width: 1440px;
+    height: 55px;
+    left: 0px;
+    top: 969px;
+    background: #383733;
+}
+
+.a {
+    text-decoration: none;
+}
